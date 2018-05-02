@@ -1,0 +1,43 @@
+* { /* seleciona tudo */
+    /* font-size: 2em; tudo que é da fonte n funfa */
+    color: darkblue;
+    background-color: bisque;
+}
+
+div {
+    background-color: aqua;
+    /* height: 150px;
+    width: 12.5%; */
+    padding: 10px;
+    display: inline-block;
+    color: black;
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 10%;
+}
+
+@media (max-width: 350px){
+    div {
+        width: 50%;
+    }
+}
+
+div:hover {
+    cursor: pointer;
+}
+
+div:first-of-type {
+    background-color: crimson;
+}
+
+div:last-of-type {
+    background-color: blueviolet;
+}
+
+div:nth-of-type(4) {
+    background-color: green;
+}
+
+h2 {
+    clear: both;
+}

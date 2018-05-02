@@ -1,0 +1,41 @@
+* { /* seleciona tudo */
+    /* font-size: 2em; tudo que é da fonte n funfa */
+    color: darkblue;
+    background-color: bisque;
+}
+
+div {
+    background-color: aqua;
+    width: 50px;
+    height: 15px;
+    float: left;
+    /* 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px; 
+    dá no mesmo que
+    padding: 10px 5px 10px 1px;
+    */
+    padding: 10px;
+    border: 5px solid black;
+    /* box-sizing: border-box; */
+    /* primeiro é top e bottom e o segundo left e right */
+    margin: 1px 2px;
+}
+
+div:first-of-type {
+    background-color: crimson;
+}
+
+div:last-of-type {
+    background-color: blueviolet;
+}
+
+div:nth-of-type(4) {
+    background-color: green;
+}
+
+h2 {
+    clear: both;
+}

@@ -1,0 +1,47 @@
+header {
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+header nav {
+    float: left;
+}
+
+header nav li {
+    font-size: 1em;
+    font-family: Courier New, Courier, monospace;
+    display: inline-block;
+    margin: 10px;
+    border-bottom: 3px solid white;
+    padding: 0px 5px;
+    padding-bottom: 3px;
+}
+
+header nav li:hover {
+    color: grey;
+    cursor: pointer;
+    border-color: grey;
+}
+
+header form {
+    float: right;
+    margin: 5px;
+}
+
+header form {
+    height: 20px;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+input[type=text] {
+    position: fixed;
+    bottom: 1px;
+    left: 1px;
+}
+input[type=submit] {
+    position: fixed;
+    bottom: 1px;
+    left: 160px;
+}
